@@ -2,7 +2,14 @@ package javaPractice;
 
 public class ArrayPractice {
 
+    public static ArrayPractice getArrayPractice(){
+        ArrayPractice arrayPractice = new ArrayPractice();
+        return arrayPractice;
+    }
+
     public static void main(String[] args) {
+        ArrayPractice arrayPractice = getArrayPractice();
+
         //Array Symbol -- []
         String[] name = {"Mr X", "Mr Y", "Mr Z", "Mr A"};
         System.out.println(name[0]);
