@@ -28,6 +28,5 @@ public class Execution {
         System.out.println(properties2.getProperty("date"));
         System.out.println(properties2.getProperty("subject"));
 
-
     }
 }

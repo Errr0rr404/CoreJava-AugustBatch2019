@@ -36,7 +36,6 @@ public class DataReader {
         try {
             FileReader fileReader = new FileReader(filePath);
             BufferedReader bufferedReader = new BufferedReader(fileReader);
-
             while ((container = bufferedReader.readLine()) != null) {
                 finalText = container;
             }

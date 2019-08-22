@@ -1,15 +1,9 @@
-package javaPractice;
+package datastructures;
 
 public class ArrayPractice {
 
-    public static ArrayPractice getArrayPractice(){
-        ArrayPractice arrayPractice = new ArrayPractice();
-        return arrayPractice;
-    }
 
     public static void main(String[] args) {
-        ArrayPractice arrayPractice = getArrayPractice();
-
         //Array Symbol -- []
         String[] name = {"Mr X", "Mr Y", "Mr Z", "Mr A"};
         System.out.println(name[0]);
@@ -19,7 +13,7 @@ public class ArrayPractice {
         System.out.println("**************");
 
         for (int a = 0; a < name.length; a++) {
-            System.out.println(name[a]+a);
+            System.out.println(name[a] + a);
         }
 
         System.out.println("**************");
@@ -37,9 +31,18 @@ public class ArrayPractice {
 
         int[] id = {12, 11, 111, 223, 322};
 
-        for(int s : id){
+        for (int s : id) {
             System.out.println(s);
         }
 
+        System.out.println("************ New Types Of Array ************");
+        int[] numbers = new int[3];
+        numbers[0] = 11;
+        numbers[1] = 12;
+        System.out.println(numbers.length);
+        System.out.println(numbers[2]);
+        int[] newArray = numbers.clone();
+        System.out.println(newArray.length);
+        System.out.println(newArray[2]);
     }
 }

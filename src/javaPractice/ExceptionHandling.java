@@ -1,7 +1,5 @@
 package javaPractice;
 
-import java.io.IOException;
-
 public class ExceptionHandling {
     public static void main(String[] args) {
 
@@ -20,16 +18,14 @@ public class ExceptionHandling {
 
         //finally -- keyword -- finally block always gets executed
         // mostly used for DB connectivity closing
-                            // file reader closing
+        // file reader closing
         try {
-                System.out.println(name[4]);
+            System.out.println(name[4]);
         } catch (ArrayIndexOutOfBoundsException ex) {
             System.out.println("caught the exception");
             ex.printStackTrace();
             //perform below
-        }
-
-        finally {
+        } finally {
 
         }
 
