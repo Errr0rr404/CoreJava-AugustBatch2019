@@ -1,4 +1,4 @@
-package datastructures;
+package datastructures.array;
 
 public class ArrayPractice {
 
@@ -23,6 +23,7 @@ public class ArrayPractice {
         for (int i = 0; i < objectArray.length; i++) {
             System.out.println(objectArray[i]);
         }
+
 
 
         System.out.println("************");

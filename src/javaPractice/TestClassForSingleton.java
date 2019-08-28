@@ -15,7 +15,6 @@ public class TestClassForSingleton {
         if (testClassForSingleton == null) {
             testClassForSingleton = new TestClassForSingleton();
         }
-
         return testClassForSingleton;
     }
 
